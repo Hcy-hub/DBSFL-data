@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:\Users\LJ\.vscode\extensions\ms-python.python-2022.2.1924087327\pythonFiles\shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "C:\Users\LJ\.conda\envs\FL\lib\subprocess.py", line 311, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:/Users/LJ/.conda/envs/FL/python.exe', '-m', 'pip', 'install']' returned non-zero exit status 1.
